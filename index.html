@@ -33,8 +33,8 @@
     <title>Loopstudios landing page</title>
   </head>
   <body>
-    <div class="header">
-      <picture id="banner">
+    <div class="header-container">
+      <picture id="hero">
         <source
           srcset="/images/desktop/image-hero.jpg"
           media="(min-width:800px)"
@@ -49,22 +49,27 @@
         />
       </picture>
       <header>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">
-                <img
-                  src="/images/logo.svg"
-                  alt="Loopstudios. Click for home."
-                />
-              </a>
-            </li>
-            <li>
+        <nav class="navbar nav-change">
+          <div class="nav-header">
+            <a href="#">
               <img
-                src="./images/icon-hamburger.svg"
-                alt="hamburger-menu. Click for menu"
+                src="/images/logo.svg"
+                class="logo"
+                alt="Loopstudios. Click for home."
               />
-            </li>
+            </a>
+            <img
+              src="./images/icon-hamburger.svg"
+              alt="hamburger-menu. Click for menu"
+              class="menu"
+            />
+            <img
+              src="./images/icon-close.svg"
+              alt="hamburger-menu. Click for menu"
+              class="close"
+            />
+          </div>
+          <ul class="nav-links nav-links-change">
             <li><a href="#">About</a></li>
             <li><a href="#"> Careers</a></li>
             <li><a href="#">Events </a></li>
@@ -72,9 +77,12 @@
             <li><a href="#">Support</a></li>
           </ul>
         </nav>
-        <span> Immersive experiences that deliver</span>
+        <div class="banner">
+          <p>Immersive experiences that deliver</p>
+        </div>
       </header>
     </div>
+    <section class="hero"></section>
     <section id="about">
       <img src="/images/mobile/image-interactive.jpg" alt="" />
       The leader in interactive VR Founded in 2011, Loopstudios has been
