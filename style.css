@@ -37,6 +37,7 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+
 a {
   text-decoration: none;
   display: block;
@@ -125,7 +126,6 @@ button {
 }
 section {
   margin-top: 10rem;
-  /* border: 3px solid red; */
 }
 footer {
   margin-top: 8rem;
@@ -159,7 +159,6 @@ header {
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-  border: 2px solid blue;
 }
 
 .navbar {
@@ -341,6 +340,7 @@ nav li {
 end of header styles
 ====================
 */
+
 /* 
 =====================
 Section II
@@ -351,7 +351,6 @@ Section II
   height: 70vh;
   height: auto;
   padding: 3rem;
-  border: 2px solid red;
 }
 .text {
   /* border: 2px solid lightcoral; */
@@ -374,7 +373,7 @@ Section II
   color: var(--clr-dark-gray);
   text-align: center;
   font-size: 1.5rem;
-  /* border: 2px solid blue; */
+
   max-width: 600px;
 }
 @media (min-width: 850px) {
@@ -474,6 +473,7 @@ Section III
 .gallery {
   display: grid;
   margin-top: 5rem;
+  padding: 0 5rem;
 }
 figure {
   display: grid;
@@ -512,6 +512,7 @@ figcaption a {
   transform: translate(-50%, -50%);
 }
 button a {
+  font-family: var(--ff-primary);
   color: var(--clr-black);
 }
 
@@ -579,7 +580,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   gap: 2.5rem;
 }
 .logoandnavlinks ul li {
@@ -621,12 +622,12 @@ footer {
 
 @media (min-width: 800px) {
   footer {
-    padding-top: 0;
+    padding-top: 2rem;
     padding-bottom: 3rem;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
     /* gap: 4rem; */
   }
 
