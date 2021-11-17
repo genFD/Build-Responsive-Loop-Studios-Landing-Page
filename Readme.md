@@ -1,36 +1,43 @@
 Build-Responsive-Loop-Studios-Landing-Page
-Welcome! 👋🏾
+
+## Welcome! 👋🏾
 
 Thanks for checking out this project.
-Table of contents
 
-    Welcome! 👋🏾
-    Table of contents
-        Built with
-        The challenge
-        Links
-        Workflow
+## Table of contents
 
-Built with
+- [Welcome! 👋🏾](#welcome-)
+- [Table of contents](#table-of-contents)
+  - [Built with](#built-with)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  - [Workflow](#workflow)
 
-    Semantic HTML5 markup
-    Vanilla Js
-    Flexbox
-    Grid
 
-The challenge
+### Built with
 
-Build responsive website using HTML, CSS and JS : Users should be able to view the optimal layout depending on their device's screen size.
-Links
+- Semantic HTML5 markup
+- Vanilla Js
+- Flexbox
 
-    Live Site URL: Loop-Studios
+### The challenge
 
-Workflow
+Build responsive website using HTML, CSS and JS : 
+Users should be able to view the optimal layout for the four sections (Navbar, hero, about and contact) depending on their device's screen size.
 
-    Setting up the project
+### Links
 
-    Initialize the project as a public repository on GitHub
+- Live Site URL: [Loop-Studios](https://loopstudios-hk.netlify.app/)
 
-    structure content with HTML
-    Write out base styles, including general content styles, such as font-family and font-size.
-    adding styles to the top of the page and work down
+### Workflow
+
+1.  Setting up the project
+   - Initialize the project as a public repository on [GitHub](https://github.com/)
+  
+2.  structure content with HTML
+3.  Write out base styles, including general content styles, such as `font-family` and `font-size`. 
+4.  adding styles to the top of the page and work down
+
+
+
+
